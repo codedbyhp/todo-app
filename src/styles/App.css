@@ -1,0 +1,13 @@
+:root{
+  --bg:#f4f5f7; --panel:#fff; --muted:#8b8f98; --accent:#1b2144;
+  --card-shadow: 0 8px 30px rgba(30,30,60,0.06);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial;background:var(--bg)}
+.app-container{display:flex;height:100vh}
+.app-container.dark{background:#121217;color:#ddd}
+.main-area{flex:1;padding:28px}
+.tasks-panel{background:var(--panel);padding:20px;border-radius:12px;box-shadow:var(--card-shadow)}
+.panel-head h2{margin:0;color:var(--accent)}
+.panel-sub{color:var(--muted);font-size:13px}
+.empty-msg{padding:24px;color:#777;text-align:center}

@@ -1,0 +1,13 @@
+.task-item{display:flex;justify-content:space-between;align-items:center;padding:12px;border-radius:10px;border:1px solid #eef0f4;background:var(--panel);margin-bottom:10px;transition:transform .12s,box-shadow .12s}
+.task-item:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(30,30,60,0.06)}
+.task-left{display:flex;gap:10px;align-items:center}
+.title{font-weight:700;color:var(--accent)}
+.smallmuted{font-size:13px;color:var(--muted)}
+.task-right{display:flex;gap:10px;align-items:center}
+.chip{padding:6px 8px;border-radius:8px;font-size:12px}
+.importance-low{background:#e8f5ff;color:#1976d2}
+.importance-medium{background:#fff4e6;color:#ff9800}
+.importance-high{background:#ffecec;color:#e53935}
+.editBtn{border:none;background:#f0f3ff;padding:6px 8px;border-radius:6px;cursor:pointer}
+.deleteBtn{border:none;background:transparent;color:#c62828;cursor:pointer}
+.task-item.done{opacity:0.6;text-decoration:line-through}

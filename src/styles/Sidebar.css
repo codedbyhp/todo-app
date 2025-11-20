@@ -1,0 +1,60 @@
+/* Sidebar main */
+.sidebar {
+  width: 230px;
+  background: #fff;
+  padding: 25px 18px;
+  border-right: 1px solid #e6e7ea;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Brand */
+.brand span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1b2144;
+}
+
+/* Navigation buttons */
+.nav button {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav button:hover {
+  background: #eef1ff;
+}
+
+.nav button.active {
+  background: #1b2144;
+  color: #fff;
+}
+
+/* Section Title - Categories */
+.cat-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0 8px;
+  color: #1a1a1a;
+}
+
+/* Stats Section */
+.stats {
+  margin-top: 15px;
+}
+
+.stats div {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 4px 0;
+  color: #000;
+}
